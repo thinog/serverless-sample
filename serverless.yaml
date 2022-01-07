@@ -1,0 +1,9 @@
+service: sqs
+
+provider:
+  name: aws
+  lambdaHashingVersion: 20201221
+
+functions:
+  sqs-test-function:
+    handler: index.handler

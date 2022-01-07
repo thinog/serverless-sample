@@ -1,0 +1,14 @@
+{
+  "name": "serverless-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "locally": "SLS_DEPRECATION_DISABLE='*' sls invoke local --function sqs-test-function --path input.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^2.70.0"
+  }
+}
